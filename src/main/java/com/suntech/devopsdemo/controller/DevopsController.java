@@ -11,5 +11,11 @@ public class DevopsController {
 	{
 		return "Devops Integration Project Is Working Fine";
 	}
+	
+	@GetMapping("/testIt")
+	public String testing()
+	{
+		return "Testing Is Fine";
+	}
 
 }
