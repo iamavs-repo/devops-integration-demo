@@ -17,5 +17,11 @@ public class DevopsController {
 	{
 		return "Testing Is Fine";
 	}
+	
+	@GetMapping("/message")
+	public String devops()
+	{
+		return "Are You Enjoying Devops tools?";
+	}
 
 }
