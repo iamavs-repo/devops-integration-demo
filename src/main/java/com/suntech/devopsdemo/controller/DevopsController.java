@@ -23,5 +23,11 @@ public class DevopsController {
 	{
 		return "Are You Enjoying Devops tools?";
 	}
+	
+	@GetMapping("/newTestingMethod")
+	public String cicd()
+	{
+		return "CI/CD Working Properly";
+	}
 
 }
