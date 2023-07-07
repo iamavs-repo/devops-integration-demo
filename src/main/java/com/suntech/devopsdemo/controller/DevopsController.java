@@ -30,5 +30,11 @@ public class DevopsController {
 	public String devopsTesting() {
 		return "Second Push Successful";
 	}
+	
+	@GetMapping("/testingAgain")
+	public String newTestMethod()
+	{
+		return "Successful Testing";
+	}
 
 }
