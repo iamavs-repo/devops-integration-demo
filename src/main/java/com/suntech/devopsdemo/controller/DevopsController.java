@@ -36,5 +36,11 @@ public class DevopsController {
 	{
 		return "Successful Testing";
 	}
+	
+	@GetMapping("/oneMore")
+	public String oneMoreMethod()
+	{
+		return "Hello Testers";
+	}
 
 }
