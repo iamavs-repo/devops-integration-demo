@@ -42,7 +42,7 @@ public class DevopsController {
 	}
 	
 	@GetMapping("/oneMore")
-	public String oneMoreMethodAdded()
+	public String oneMoreMethodAddedHere()
 	{
 		return "Hello Testers How are you?";
 	}
