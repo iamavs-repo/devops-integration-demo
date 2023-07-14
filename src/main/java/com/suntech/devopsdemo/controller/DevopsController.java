@@ -21,7 +21,7 @@ public class DevopsController {
 
 	@GetMapping("/message")
 	public String devops() {
-		return "Are You Enjoying Devops tools?";
+		return "Are You Enjoying Devops tools? everyone";
 	}
 
 	@GetMapping("/newTestingMethod")
