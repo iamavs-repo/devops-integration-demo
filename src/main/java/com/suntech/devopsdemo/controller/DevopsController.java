@@ -1,9 +1,11 @@
 package com.suntech.devopsdemo.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
+@RequestMapping("/service2")
 public class DevopsController {
 
 	@GetMapping("/checkIt")
@@ -18,7 +20,7 @@ public class DevopsController {
 
 	@GetMapping("/message")
 	public String devops() {
-		return "Are You Enjoying Devops tools?";
+		return "Are You Enjoying Devops tools? everyone";
 	}
 
 	@GetMapping("/newTestingMethod")
@@ -38,9 +40,9 @@ public class DevopsController {
 	}
 	
 	@GetMapping("/oneMore")
-	public String oneMoreMethod()
+	public String oneMoreMethodAdded()
 	{
-		return "Hello Testers";
+		return "Hello Testers How are you?";
 	}
 
 }
